@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.fejlec {
+    display: flex;
+    background-color: purple;
+    padding: 10px;
+    justify-content: flex-start; 
+}
+.box {
+    width: 200px;
+    height: 50px;
+    background-color: cyan;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.tartalom {
+    display: flex;
+    flex: 1;
+}
+.sarga {
+    background-color: yellow;
+    flex: 3;
+}
+.zold {
+    background-color: green;
+    flex: 1;
+}
