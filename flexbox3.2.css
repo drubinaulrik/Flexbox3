@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white; 
+}
+.fejlec {
+    display: flex;
+    background-color: purple;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.elem {
+    background-color: cyan;
+    width: 90px;
+    height: 35px;
+    margin-right: -35px;
+    margin-left: 50px;
+}
+.elem:last-child {
+    margin-right: 0;
+}
+.container {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.oldal {
+    background-color: green;
+    width: 30%;
+    margin-right: 10px; 
+}
+.tartalom {
+    background-color: yellow;
+    flex-grow: 1;
+}
+.lablec {
+    background-color: grey;
+    height: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
